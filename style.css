@@ -1,0 +1,51 @@
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: url("images/brno.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 400px;
+    background-position: center;
+    color: white;
+    text-shadow: 0 0 2px black;
+    padding: 60px 70px;
+}
+
+header p {
+    max-width: 800px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+footer{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
